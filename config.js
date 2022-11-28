@@ -1,7 +1,7 @@
 module.exports = {
     token: "", 
-    prefix: "",
-    "ip": "play.cubecraft.net",
-  "name": "CubeCraft"
+    prefix: "k+",
+    "ip": "oyna.kobatnetwork.tk",
+  "name": "Kobat Network"
 }
 

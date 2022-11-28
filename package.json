@@ -1,13 +1,13 @@
 {
-  "name": "Godzilla",
+  "name": "Kobat Network",
   "version": "4.0.0",
-  "description": "Basit Minecraft Durum Botu",
+  "description": "Easy Minecraft Stat",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Ly3ssia",
+  "author": "caanyak",
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^1.0.0",

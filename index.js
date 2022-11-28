@@ -43,7 +43,7 @@ const request = require('request');
         const json_body = JSON.parse(body);
         const onlinePlayers = json_body.players.online;
 
-        client.user.setActivity(`${onlinePlayers} Kişi ${config.name} Macerasında!`)
+        client.user.setActivity(`${onlinePlayers} Oyuncu ${config.name} Koşuşturuyor!`)
           
         });
     };

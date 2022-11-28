@@ -8,9 +8,9 @@ request(`https://api.mcsrvstat.us/2/${config.ip}`, function (error, response, bo
   const json_body = JSON.parse(body);
   const onlinePlayers = json_body.players.online;
        const embed = new EmbedBuilder()
-       .setTitle("Minecraft - Godzilla")
-       .setDescription(`${config.name} Sunucusunda ${onlinePlayers} Aktif!`)
-       .setColor("#ff0000")
+       .setTitle("Kobat Network")
+       .setDescription(`${config.name} Sunucusunda ${onlinePlayers} Aktif Oyuncu Var!`)
+       .setColor("#FFFFFF")
   message.channel.send({embeds: [embed]})
 
 })
